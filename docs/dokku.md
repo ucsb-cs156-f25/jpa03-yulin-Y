@@ -4,7 +4,7 @@ These instructions explain how to deploy this app on dokku with a postgres datab
 
 As you follow these instructions, don't just blindly copy and paste:
 * <tt><i>yourGithubLogin</i></tt> should be changed to your github login
-* <tt><i>yourEmail<i/></tt> should be changed to your email.
+* <tt><i>yourEmail</i></tt> should be changed to your email.
 
 The steps below should be done *strictly in this order*. If you try them in a different order, things may not work properly.
 
