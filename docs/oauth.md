@@ -115,7 +115,7 @@ Before you try to configure a dokku app for OAuth, do these steps *in this order
    This will deploy an https  version of the app.
    When these commands complete, *you should be able to login with OAuth*:<br />
    <tt>dokku letsencrypt:set jpa03-<i>yourGithubLogin</i> email <i>yourEmail</i>@ucsb.edu</tt><br />
-   <tt>dokku letsencrypt:enable jpa03-<i>yourGithubLogin</i></tt>
+   <tt>dokku letsencrypt:enable jpa03-<i>yourGithubLogin</i></tt><br />
    <tt>dokku ps:rebuild jpa03-<i>yourGithubLogin</i></tt><br />
 
 For troubleshooting advice with OAuth, this page may help:
