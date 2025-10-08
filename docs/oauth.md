@@ -93,7 +93,7 @@ With this done, you should be all set to run on localhost.
 
 Before you try to configure a dokku app for OAuth, do these steps *in this order*.  If you try them in a different order, things won't work properly.
 
-<b>Do not literally use `appname` in these instructions; substitute in <tt>jpa03-<i>yourGithubLogin</i></tt> where <tt><i>yourGithubLogin</i></tt> is your Github login.</b>
+<b>Do not literally use <tt>jpa03-<i>yourGithubLogin</i></tt> in these instructions; substitute in your own github login in place of the words <tt><i>yourGithubLogin</i></tt></b>.
 
 1. Configure the app on localhost using a `.env` file as explained above, and have the `.env` file open in an editor so that the values are handy.
 2. Create a new dokku app with <tt>dokku apps:create jpa03-<i>yourGithubLogin</i></tt>
